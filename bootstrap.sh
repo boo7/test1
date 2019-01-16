@@ -24,3 +24,5 @@ ls /etc/sudoers.d/
 cat /etc/sudoers.d/*
 
 env
+echo "/opt search :"
+find /opt
